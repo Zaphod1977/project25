@@ -4,7 +4,7 @@
 }
 
 .space {
-  background-image: url(../src/assets/images/Lines.gif);
+  background-image: url(https://st2.depositphotos.com/1010735/9254/v/950/depositphotos_92545840-stock-illustration-christmas-banner-with-spruce-twigs.jpg);
 }
 
 /* img {
@@ -19,7 +19,7 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 body {
@@ -31,10 +31,10 @@ body {
 
 /* apply styles to <header> */
 header {
-  padding: 20px 35px;
+  padding: 20px 15px;
   align-items: center;
   background-color: gray;
-  opacity: calc(100);
+  opacity: calc(10);
   position: sticky;
   top: 0px;
   z-index: 50;
@@ -48,7 +48,7 @@ footer {
 }
 
 footer * {
-  
+  height: 50px;
   justify-content: space-evenly;
 }
 
@@ -79,8 +79,11 @@ header h1 {
 }
 
 header a {
+  background-color: black;
+  border-radius: 10px;
   text-decoration: none;
   color: white;
+  padding: 5px;
 }
 
 header nav {
@@ -338,7 +341,7 @@ body {
 
   header nav ul li a {
     margin:1em .45em 0 0;
-    padding: 0;
+    padding: 1px;
   }
 
   #name {
@@ -427,7 +430,8 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: gray;
+    /* color: black; */
+    background-image: url(https://st2.depositphotos.com/1010735/9254/v/950/depositphotos_92545840-stock-illustration-christmas-banner-with-spruce-twigs.jpg);
   }
 
   #con a {

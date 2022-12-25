@@ -1,22 +1,19 @@
 import React from 'react';
-import resumeImage from '../../assets/images/Resume.jpg'
-import Project from '../Project';
 function Resume(props) {
 
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Resume</h2>
+      <h2 className="work-leftside">Clue #3</h2>
       <div >
-        <div className="">
-          <Project className="resume"
-            imageSource={resumeImage}
-            imageAlt=""
-            label="">
-          </Project>
-        </div>
+      <p className="aboutme-rightside">
+            Christmas has come and gone many times. But so closely have you never slept to your gift... 
+            Close to your head, yet you'd never know.
+        </p>
       </div>
     </section>
   );
 };
 
 export default Resume;
+
+
